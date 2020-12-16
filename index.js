@@ -10,13 +10,13 @@ function functionName() {
    console.log(cars);
  }
  
- function findyellowcars() {
+ function findYellowCars() {
    for (let i = 0; i < cars.length; i++) {
      let car = cars[i];
      
 
      if (car == yellow) {
-       console.log(' car ');
+       return car;
      }
    }
    
