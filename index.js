@@ -7,6 +7,17 @@
 // }
 
 function functionName() {
-   console.log("Hello World");
+   console.log(cars);
  }
  
+ function findyellowcars() {
+   for (let i = 0; i < cars.length; i++) {
+     let car = cars[i];
+     
+
+     if (car == yellow) {
+       console.log(' car ');
+     }
+   }
+   
+ }
